@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xri version="1.0">
+  <description>
+    <p>Mike's EZ Scripts - Quality-of-life utility scripts for PixInsight.</p>
+  </description>
+  <platform os="all" arch="noarch" version="1.9.4:1.9.99">
+    <package fileName="PixInsight-Utilities-v1.0.0.zip" sha1="3f745cfe4cb33d5fc91596e6ab8ca8926f425d57" type="script" releaseDate="20260916">
+      <title>Mike's EZ Scripts - PixInsight Utilities v1.0.0</title>
+      <description>
+        <p>Quality-of-life utilities for PixInsight 1.9.4 and later.</p>
+        <p>Includes BatchHDR, CreateHDRImage, QuickMagentaCorrect, ResizeWindow, SaveAs10Mb, SaveAs20Mb, SyncImages, and ViewIntegration.</p>
+        <p>The HDR utilities are based on CreateHDR by Jürgen Terpe.</p>
+      </description>
+    </package>
+  </platform>
+</xri>
