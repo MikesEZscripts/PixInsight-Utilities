@@ -4,8 +4,8 @@ Quality-of-life utility scripts for PixInsight, collected in a single **Script >
 
 ## Included utilities
 
-- **BatchHDR** — Creates six HDR comparison variants of the active image.
-- **CreateHDRImage** — Process-icon-enabled version of CreateHDR.
+- **BatchHDR** — Creates six HDR comparison variants of the active image. (createHDR process by Jürgen Terpe)
+- **CreateHDRImage** — Process-icon-enabled version of CreateHDR. (createHDR process by Jürgen Terpe)
 - **QuickMagentaCorrect** — Inverts the image, applies SCNR Green, then inverts back.
 - **ResizeWindow** — Resizes an image window using Width and Height process parameters.
 - **SaveAs10Mb** — Creates a resized copy targeted below the 10 MB PNG upload limit.
