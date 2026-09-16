@@ -2,7 +2,7 @@
 
 Quality-of-life utility scripts for PixInsight, collected in a single **Script > Utilities** menu.
 
-# NOTE
+## NOTE
 These utlities are designed to be run as click and drag process icons in your workspace.
 To run these utilities search for them in the process explorer, click and drag them to your workspace, save the name, and save your process icons file.
 
