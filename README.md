@@ -3,13 +3,13 @@
 Quality-of-life utility scripts for PixInsight, collected in a single **Script > Utilities** menu.
 
 ## NOTE
-These utlities are designed to be run as **click and drag process icons** in your workspace.
-To run these utilities search for them in the process explorer, click and drag them to your workspace, save the name, and save your process icons file.
+These utilities are designed to be run as **click and drag process icons** in your workspace.
+To run these utilities search for them in the process explorer, click and drag them to your workspace, name the icon, and save your process icons file.
 
 ## Included utilities
 
-- **BatchHDR** — Creates six HDR comparison variants of the active image. (createHDR process by Jürgen Terpe)
-- **CreateHDRImage** — Process-icon-enabled version of CreateHDR. (createHDR process by Jürgen Terpe)
+- **BatchHDR** — Creates six HDR comparison variants of the active image. (CreateHDR process by Jürgen Terpe)
+- **CreateHDRImageIcon** — Process-icon-enabled version of CreateHDR. (CreateHDR process by Jürgen Terpe)
 - **QuickMagentaCorrect** — Inverts the image, applies SCNR Green, then inverts back.
 - **ResizeWindow** — Resizes an image window using Width and Height process parameters.
 - **SaveAs10Mb** — Creates a resized copy targeted below the 10 MB PNG upload limit.
@@ -23,7 +23,7 @@ These utilities were developed and tested with **PixInsight 1.9.4 Lockhart**.
 
 ## HDR dependency
 
-**BatchHDR** and **CreateHDRImage** use Jürgen Terpe's `PixInsightToolsPreviewControl.jsh`. Install Jürgen's Toolbox scripts as well so PixInsight has `src/scripts/Toolbox/PixInsightToolsPreviewControl.jsh`.
+**BatchHDR** and **CreateHDRImageIcon** use Jürgen Terpe's `PixInsightToolsPreviewControl.jsh`. Install Jürgen's Toolbox scripts as well so PixInsight has `src/scripts/Toolbox/PixInsightToolsPreviewControl.jsh`.
 
 ## Installation through PixInsight
 
@@ -37,7 +37,7 @@ The installed scripts appear under **Script > Utilities**.
 
 ## Credits
 
-The HDR utilities in this repository are based on **CreateHDR by Jürgen Terpe**. Jürgen's original work provided the foundation for the CreateHDRImage and BatchHDR utilities included here.
+The HDR utilities in this repository are based on **CreateHDR by Jürgen Terpe**. Jürgen's original work provided the foundation for the CreateHDRImageIcon and BatchHDR utilities included here.
 
 Special thanks to Jürgen for his work on CreateHDR and for his support and enthusiasm for these modifications and extensions. His original copyright and attribution remain in the CreateHDR source and interface.
 

@@ -1,5 +1,5 @@
 param(
-    [string]$Version = "1.0.0",
+    [string]$Version = "1.0.1",
     [string]$ReleaseDate = (Get-Date -Format "yyyyMMdd")
 )
 
@@ -24,7 +24,7 @@ $Xri = @"
       <title>Mike's EZ Scripts - PixInsight Utilities v$Version</title>
       <description>
         <p>Quality-of-life utilities for PixInsight 1.9.4 and later.</p>
-        <p>Includes BatchHDR, CreateHDRImage, QuickMagentaCorrect, ResizeWindow, SaveAs10Mb, SaveAs20Mb, SyncImages, and ViewIntegration.</p>
+        <p>Includes BatchHDR, CreateHDRImageIcon, QuickMagentaCorrect, ResizeWindow, SaveAs10Mb, SaveAs20Mb, SyncImages, and ViewIntegration.</p>
         <p>The HDR utilities are based on CreateHDR by Jürgen Terpe.</p>
       </description>
     </package>
