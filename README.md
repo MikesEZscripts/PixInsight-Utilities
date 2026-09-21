@@ -3,27 +3,30 @@
 Quality-of-life utility scripts for PixInsight, collected in a single **Script > Utilities** menu.
 
 ## NOTE
-These utilities are designed to be run as **click and drag process icons** in your workspace.
-To run these utilities search for them in the process explorer, click and drag them to your workspace, name the icon, and save your process icons file.
+
+These utilities are designed to be run as **click-and-drag process icons** in your workspace. To create a process icon, locate the utility in the **Process Explorer**, then click and drag it to your workspace. You can rename the icon and save your workspace process icons for future use.
+
+A ready-made process icon set is also included in this repository as `MikesEZScripts-ProcessIcons.xpsm`.
 
 ## Included utilities
 
-- **BatchHDR** — Creates six HDR comparison variants of the active image. (CreateHDR process by Jürgen Terpe)
-- **CreateHDRImageIcon** — Process-icon-enabled version of CreateHDR. (CreateHDR process by Jürgen Terpe)
-- **QuickMagentaCorrect** — Inverts the image, applies SCNR Green, then inverts back.
-- **ResizeWindow** — Resizes an image window using Width and Height process parameters.
-- **SaveAs10Mb** — Creates a resized copy targeted below the 10 MB PNG upload limit.
-- **SaveAs20Mb** — Creates a resized copy targeted below the 20 MB PNG upload limit.
-- **SyncImages** — Copies the active image's zoom and viewport position to the other open image windows.
-- **ViewIntegration** — Integrates currently open PixInsight views through the native ImageIntegration process.
+* **BatchHDR** — Creates six HDR comparison variants of the active image. (Automates CreateHDR by Jürgen Terpe)
+* **CreateHDRImageIcon** — Process-icon-enabled version of CreateHDR. (Launches CreateHDR by Jürgen Terpe)
+* **QuickMagentaCorrect** — Inverts the image, applies SCNR Green, then inverts back.
+* **ResizeWindow** — Resizes an image window using Width and Height process parameters (default is 800x800).
+* **SaveAs10Mb** — Creates a resized copy targeted below the 10 MB PNG upload limit.
+* **SaveAs20Mb** — Creates a resized copy targeted below the 20 MB PNG upload limit.
+* **SyncImages** — Copies the active image's zoom and viewport position to the other open image windows.
+* **ViewIntegration** — Integrates currently open PixInsight views through the native ImageIntegration process.
 
 ## Compatibility
 
-These utilities were developed and tested with **PixInsight 1.9.4 Lockhart**.
+These utilities were developed and tested with **PixInsight 1.9.5**.
 
 ## HDR dependency
 
-**BatchHDR** and **CreateHDRImageIcon** use Jürgen Terpe's `PixInsightToolsPreviewControl.jsh`. Install Jürgen's Toolbox scripts as well so PixInsight has `src/scripts/Toolbox/PixInsightToolsPreviewControl.jsh`.
+**CreateHDRImageIcon** and **BatchHDR** use Jürgen Terpe's **CreateHDR** script. Please add it to your repository:
+**https://www.ideviceapps.de/PixInsight/Utilities/**
 
 ## Installation through PixInsight
 
@@ -35,11 +38,15 @@ Then run **Resources > Updates > Check for Updates** and restart PixInsight when
 
 The installed scripts appear under **Script > Utilities**.
 
+## Process icons
+
+The repository includes `MikesEZScripts-ProcessIcons.xpsm`, containing ready-made process icons for all eight utilities. The icons reference the standard PixInsight installation path under `src/scripts/Utilities`.
+
 ## Credits
 
 The HDR utilities in this repository are based on **CreateHDR by Jürgen Terpe**. Jürgen's original work provided the foundation for the CreateHDRImageIcon and BatchHDR utilities included here.
 
-Special thanks to Jürgen for his work on CreateHDR and for his support and enthusiasm for these modifications and extensions. His original copyright and attribution remain in the CreateHDR source and interface.
+Special thanks to Jürgen for his work on CreateHDR and for his support and enthusiasm for these automation icons. His original copyright and attribution remain in the CreateHDR source and interface.
 
 ## Notes
 
