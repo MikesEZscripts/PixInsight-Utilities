@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+********************************************************************
+PixInsight XML Process Serialization Module - XPSM 1.0
+********************************************************************
+Generated on 2026-09-21T19:44:48.531Z
+PixInsight Core 1.9.5 (x64)
+Copyright (c) 2003-2026 Pleiades Astrophoto
+********************************************************************
+-->
+<xpsm version="1.0" xmlns="http://www.pixinsight.com/xpsm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pixinsight.com/xpsm http://pixinsight.com/xpsm/xpsm-1.0.xsd">
+   <instance class="Script" version="256" id="BatchHDR_instance">
+      <parameter id="filePath">C:/Program Files/PixInsight/src/scripts/Utilities/BatchHDR.js</parameter>
+      <parameter id="md5sum"></parameter><table id="parameters" rows="0"/><parameter id="information"></parameter>
+   </instance>
+   <instance class="Script" version="256" id="CreateHDRImage_instance">
+      <parameter id="filePath">C:/Program Files/PixInsight/src/scripts/Utilities/CreateHDRImageIcon.js</parameter>
+      <parameter id="md5sum"></parameter><table id="parameters" rows="0"/><parameter id="information"></parameter>
+   </instance>
+   <instance class="Script" version="256" id="CorrectMagenta_instance">
+      <parameter id="filePath">C:/Program Files/PixInsight/src/scripts/Utilities/QuickMagentaCorrect.js</parameter>
+      <parameter id="md5sum"></parameter><table id="parameters" rows="0"/><parameter id="information"></parameter>
+   </instance>
+   <instance class="Script" version="256" id="ResizeWindow_instance">
+      <parameter id="filePath">C:/Program Files/PixInsight/src/scripts/Utilities/ResizeWindow.js</parameter>
+      <parameter id="md5sum"></parameter><table id="parameters" rows="0"/><parameter id="information"></parameter>
+   </instance>
+   <instance class="Script" version="256" id="SaveAs10Mb_instance">
+      <parameter id="filePath">C:/Program Files/PixInsight/src/scripts/Utilities/SaveAs10Mb.js</parameter>
+      <parameter id="md5sum"></parameter><table id="parameters" rows="0"/><parameter id="information"></parameter>
+   </instance>
+   <instance class="Script" version="256" id="SaveAs20Mb_instance">
+      <parameter id="filePath">C:/Program Files/PixInsight/src/scripts/Utilities/SaveAs20Mb.js</parameter>
+      <parameter id="md5sum"></parameter><table id="parameters" rows="0"/><parameter id="information"></parameter>
+   </instance>
+   <instance class="Script" version="256" id="Sync_instance">
+      <parameter id="filePath">C:/Program Files/PixInsight/src/scripts/Utilities/SyncImages.js</parameter>
+      <parameter id="md5sum"></parameter><table id="parameters" rows="0"/><parameter id="information"></parameter>
+   </instance>
+   <instance class="Script" version="256" id="ViewIntegration_instance">
+      <parameter id="filePath">C:/Program Files/PixInsight/src/scripts/Utilities/ViewIntegration.js</parameter>
+      <parameter id="md5sum"></parameter><table id="parameters" rows="0"/><parameter id="information"></parameter>
+   </instance>
+   <icon id="BatchHDR" instance="BatchHDR_instance" xpos="1536" ypos="456" workspace="Workspace01"/>
+   <icon id="CreateHDRImage" instance="CreateHDRImage_instance" xpos="1640" ypos="456" workspace="Workspace01"/>
+   <icon id="CorrectMagenta" instance="CorrectMagenta_instance" xpos="1536" ypos="528" workspace="Workspace01"/>
+   <icon id="ResizeWindow" instance="ResizeWindow_instance" xpos="1536" ypos="496" workspace="Workspace01"/>
+   <icon id="SaveAs10Mb" instance="SaveAs10Mb_instance" xpos="1536" ypos="592" workspace="Workspace01"/>
+   <icon id="SaveAs20Mb" instance="SaveAs20Mb_instance" xpos="1656" ypos="592" workspace="Workspace01"/>
+   <icon id="Sync" instance="Sync_instance" xpos="1784" ypos="456" workspace="Workspace01"/>
+   <icon id="ViewIntegration" instance="ViewIntegration_instance" xpos="1536" ypos="560" workspace="Workspace01"/>
+</xpsm>
