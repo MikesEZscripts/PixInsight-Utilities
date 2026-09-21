@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xri version="1.0">
-  <description>
-    <p>Mike's EZ Scripts - Quality-of-life utility scripts for PixInsight.</p>
-  </description>
-  <platform os="all" arch="noarch" version="1.9.5:1.9.99">
-    <package fileName="PixInsight-Utilities-v1.0.2.zip" sha1="1249bcda7b706d2688132ab99842af1a948d95a5" type="script" releaseDate="20260921">
-      <title>Mike's EZ Scripts - PixInsight Utilities v1.0.2</title>
-      <description>
-        <p>Signed quality-of-life utilities for PixInsight 1.9.5 and later.</p>
-        <p>Includes BatchHDR, CreateHDRImageIcon, QuickMagentaCorrect, ResizeWindow, SaveAs10Mb, SaveAs20Mb, SyncImages, and ViewIntegration.</p>
-        <p>The HDR utilities are based on CreateHDR by Jürgen Terpe.</p>
-      </description>
-    </package>
-  </platform>
+   <description>
+      <p>Mike&apos;s EZ Scripts - Quality-of-life utility scripts for PixInsight.</p>
+   </description>
+   <platform os="all" arch="noarch" version="1.9.5:1.9.99">
+      <package fileName="PixInsight-Utilities-v1.0.2.zip" sha1="1249bcda7b706d2688132ab99842af1a948d95a5" type="script" releaseDate="20260921">
+         <title>Mike&apos;s EZ Scripts - PixInsight Utilities v1.0.2</title>
+         <description>
+            <p>Signed quality-of-life utilities for PixInsight 1.9.5 and later.</p>
+            <p>Includes BatchHDR, CreateHDRImageIcon, QuickMagentaCorrect, ResizeWindow, SaveAs10Mb, SaveAs20Mb, SyncImages, and ViewIntegration.</p>
+            <p>The HDR utilities are based on CreateHDR by Jürgen Terpe.</p>
+         </description>
+      </package>
+   </platform>
 </xri>
+<Signature developerId="MikeCleary" timestamp="2026-09-21T21:16:54.479Z" encoding="Base64">4K8CN3GmHgp6IqHsGNt3pQUt9KDv5kuhbnVdsIzd8IoKItNdKsy/ORsmKh0sm7CfiC0dpTJh6R+Hx8ywqpwyCA==</Signature>
